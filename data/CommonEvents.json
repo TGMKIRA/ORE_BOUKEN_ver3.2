@@ -1,0 +1,23 @@
+[
+null,
+{"id":1,"list":[{"code":356,"indent":0,"parameters":["PHQuestBook show"]},{"code":101,"indent":0,"parameters":["",0,0,2]},{"code":401,"indent":0,"parameters":["{クエスト1 [primary:276]}"]},{"code":401,"indent":0,"parameters":["<wrap><breakword>\\c[1]どこそこの北にある、なんとかのダンジョン\\c[0]で、"]},{"code":401,"indent":0,"parameters":["薬の素材が生えているエリアを探す。"]},{"code":0,"indent":0,"parameters":[]}],"name":"PHQuestBook","switchId":1,"trigger":0},
+{"id":2,"list":[{"code":356,"indent":0,"parameters":["PHQuestBook show"]},{"code":355,"indent":0,"parameters":["PHPlugins.PHQuests.isActive(\"Title of the Quest\");"]},{"code":101,"indent":0,"parameters":["",0,0,2]},{"code":401,"indent":0,"parameters":["{クエスト1 [primary:276]}"]},{"code":401,"indent":0,"parameters":["<wrap><breakword>\\c[1]どこそこの北にある、なんとかのダンジョン\\c[0]で、"]},{"code":401,"indent":0,"parameters":["薬の素材が生えているエリアを探す。"]},{"code":0,"indent":0,"parameters":[]}],"name":"Quest Book","switchId":1,"trigger":0},
+{"id":3,"list":[{"code":250,"indent":0,"parameters":[{"name":"Jump1","volume":90,"pitch":80,"pan":0}]},{"code":356,"indent":0,"parameters":["SmartJump 2"]},{"code":230,"indent":0,"parameters":[10]},{"code":0,"indent":0,"parameters":[]}],"name":"ジャンプ","switchId":1,"trigger":0},
+{"id":4,"list":[{"code":102,"indent":0,"parameters":[["ミニマップを表示","ミニマップを非表示"],1,0,2,0]},{"code":402,"indent":0,"parameters":[0,"ミニマップを表示"]},{"code":356,"indent":1,"parameters":["Minimap show"]},{"code":0,"indent":1,"parameters":[]},{"code":402,"indent":0,"parameters":[1,"ミニマップを非表示"]},{"code":356,"indent":1,"parameters":["Minimap hide"]},{"code":0,"indent":1,"parameters":[]},{"code":404,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"name":"ミニマップ","switchId":1,"trigger":0},
+{"id":5,"list":[{"code":213,"indent":0,"parameters":[-1,8,true]},{"code":212,"indent":0,"parameters":[-1,149,true]},{"code":318,"indent":0,"parameters":[0,2,0,63]},{"code":0,"indent":0,"parameters":[]}],"name":"ウィンドウ・サークルを覚える","switchId":1,"trigger":0},
+{"id":6,"list":[{"code":102,"indent":0,"parameters":[["時計を表示","時計を非表示"],1,0,2,0]},{"code":402,"indent":0,"parameters":[0,"時計を表示"]},{"code":356,"indent":1,"parameters":["C_SHOW_CLOCK"]},{"code":0,"indent":1,"parameters":[]},{"code":402,"indent":0,"parameters":[1,"時計を非表示"]},{"code":356,"indent":1,"parameters":["C_HIDE_CLOCK"]},{"code":0,"indent":1,"parameters":[]},{"code":404,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"name":"時計","switchId":1,"trigger":0},
+{"id":7,"list":[{"code":356,"indent":0,"parameters":["GLOSSARY_GAIN_ALL"]},{"code":0,"indent":0,"parameters":[]}],"name":"用語辞書","switchId":1,"trigger":0},
+{"id":8,"list":[{"code":355,"indent":0,"parameters":["Input.isPressed('shift')"]},{"code":111,"indent":0,"parameters":[12,"TouchInput.isTriggered()"]},{"code":101,"indent":1,"parameters":["",0,0,2]},{"code":401,"indent":1,"parameters":["釣れたぞ"]},{"code":0,"indent":1,"parameters":[]},{"code":411,"indent":0,"parameters":[]},{"code":355,"indent":1,"parameters":["Input.isPressed('ok')"]},{"code":101,"indent":1,"parameters":["",0,0,2]},{"code":401,"indent":1,"parameters":["釣れない"]},{"code":0,"indent":1,"parameters":[]},{"code":412,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"name":"ボタン","switchId":1,"trigger":0},
+{"id":9,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":10,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":11,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":12,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":13,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":14,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":15,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":16,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":17,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":18,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":19,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":20,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
+]
