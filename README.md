@@ -1,2 +1,2 @@
-# ORE_BOUKEN_ver3.1
-https://tgmkira.github.io/ORE_BOUKEN_ver3.1
+# ORE_BOUKEN_ver3.2
+https://tgmkira.github.io/ORE_BOUKEN_ver3.2
